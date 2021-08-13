@@ -1,7 +1,6 @@
 # golang-postgresql
 Examples connecting to PostgreSQL
 
-<br>
 <h2>Dockerfile</h2>
 Create the image, this line tells Docker to build an image from the Dockerfile and give it a name of 'my-postgres-db':<br>
 `docker build -t my-postgres-db ./`
@@ -27,4 +26,9 @@ To enter the container:<br>
 
 <br>To remove images:<br>
 `docker image rm 'nameOfTheImage'`
+
+<h3>Notes</h3>
+PostgreSQL Driver: [github.com/jackc/pgx](github.com/jackc/pgx)
+<br>'database/sql' package from the standard library
+<br>To extend its interfaces from the standard library [github.com/jackc/pgx](github.com/jackc/pgx)
 

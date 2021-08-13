@@ -1,2 +1,2 @@
 # golang-postgresql
-Examples connecting PostgreSQL
+Examples connecting to PostgreSQL

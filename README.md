@@ -20,6 +20,7 @@ To enter the container:<br>
 + *Port*: 5432
 + *User*: postgres
 + *Password*: docker (from Dockerfile)
++ *Database name*: usershop (from Dockerfile)
 
 <br>To see the images:<br>
 `docker images -a`
@@ -28,7 +29,7 @@ To enter the container:<br>
 `docker image rm 'nameOfTheImage'`
 
 <h3>Notes</h3>
-PostgreSQL Driver: [github.com/jackc/pgx](github.com/jackc/pgx)
+PostgreSQL Driver: [github.com/jackc/pgx](https://github.com/jackc/pgx)
 <br>'database/sql' package from the standard library
-<br>To extend its interfaces from the standard library [github.com/jackc/pgx](github.com/jackc/pgx)
+<br>To extend its interfaces from the standard library [github.com/jackc/pgx](https://github.com/jackc/pgx)
 
